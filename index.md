@@ -142,12 +142,13 @@ features:
 }
 
 /* 强制让 Feature 卡片变成 100% 宽度的长形卡片 */
-.VPFeatures {
+.VPFeatures .items {
   display: flex !important;
   flex-direction: column !important;
+  width: 100% !important;
 }
 
-.VPFeature {
+.VPFeatures .item {
   width: 100% !important;
   max-width: 100% !important;
 }
@@ -168,6 +169,15 @@ features:
 
 .VPFeature h2 {
   margin: 0 !important;
-  padding-bottom: 8px !important;
+  white-space: nowrap;
+}
+
+.VPFeature p {
+  margin: 0 !important;
+  flex-grow: 1;
+}
+
+.VPFeature .link-text-value {
+  white-space: nowrap;
 }
 </style>
