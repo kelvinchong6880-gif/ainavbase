@@ -95,6 +95,11 @@ features:
     details: "推荐 GPTZero、Originality.ai 等检测 AI 生成文本、图像与防学术抄袭的实用工具"
     link: /ai/summary
     linkText: "查看检测工具"
+  - title: "Ai 提示词指令"
+    icon: 🪄
+    details: "收集 Midjourney 咒语、ChatGPT 系统指令等高质量 Prompt 模板库与编写指南"
+    link: /ai/summary
+    linkText: "查看提示词库"
 ---
 <style>
 .VPHero, .VPHero .container, .VPHero .main {
