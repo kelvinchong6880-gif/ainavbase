@@ -45,6 +45,11 @@ features:
     details: "比较 ChatGPT、Claude、Gemini 等主流 AI 大语言模型的使用技巧与聚合平台"
     link: /ai/summary
     linkText: "查看聊天助手"
+  - title: "Ai 智能"
+    icon: 🧠
+    details: "探索更多前沿 AI 智能体、自动化工作流与综合型人工智能解决方案"
+    link: /ai/summary
+    linkText: "探索 AI 智能"
 ---
 <style>
 .VPHero, .VPHero .container, .VPHero .main {
