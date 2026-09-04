@@ -105,21 +105,6 @@ features:
     details: "发掘各类能够帮助你实现流量变现、自媒体运营与副业搞钱的 AI 效率工具"
     link: /ai/summary
     linkText: "查看副业指南"
-  - title: "Ai 翻译工具"
-    icon: 🌐
-    details: "盘点 DeepL、沉浸式翻译等大幅提升跨语言阅读与文献翻译效率的 AI 神器"
-    link: /ai/summary
-    linkText: "查看翻译指南"
-  - title: "Ai 数字人"
-    icon: 👩‍💼
-    details: "探索 HeyGen、腾讯智影等 AI 虚拟主播生成平台，助力短视频与直播变现"
-    link: /ai/summary
-    linkText: "查看数字人"
-  - title: "Ai 数据分析"
-    icon: 📈
-    details: "推荐 Julius AI、Advanced Data Analysis 等能帮你自动处理表格与数据可视化的工具"
-    link: /ai/summary
-    linkText: "查看数据工具"
 ---
 <style>
 .VPHero, .VPHero .container, .VPHero .main {
@@ -146,5 +131,35 @@ features:
   justify-content: center !important;
   width: 100% !important;
   display: flex !important;
+}
+
+/* 强制让 Feature 卡片变成 100% 宽度的长形卡片 */
+.VPFeatures {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.VPFeature {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.VPFeature .box {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  text-align: left !important;
+  gap: 24px;
+  padding: 24px !important;
+}
+
+.VPFeature .icon {
+  margin-bottom: 0 !important;
+  flex-shrink: 0;
+}
+
+.VPFeature h2 {
+  margin: 0 !important;
+  padding-bottom: 8px !important;
 }
 </style>
