@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Eoht | 中文技术、VPN 机场、流媒体与 AI 指南",
+  title: "AI工具导航站 | 中文技术、VPN 机场、流媒体与 AI 指南",
   description: "汇总 Linux、Docker、VPS 中文技术文档，提供流媒体、AI 工具及账号使用指南。",
   
   themeConfig: {
@@ -67,7 +67,7 @@ export default defineConfig({
           </div>
         </div>
       `,
-      copyright: 'Copyright © 2024-present Eoht'
+      copyright: 'Copyright © 2024-present AI工具导航站'
     }
   }
 })

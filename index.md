@@ -2,12 +2,12 @@
 layout: home
 
 hero:
-  name: "Eoht"
+  name: "AI工具导航站"
   text: "中文技术与数字服务"
   tagline: "技术文档、VPN 机场与代理客户端、流媒体观影、AI 工具和数字账号指南"
   image:
     src: /logo.png
-    alt: Eoht Logo
+    alt: AI工具导航站 Logo
   actions:
     - theme: brand
       text: "比较 VPN 机场套餐"
