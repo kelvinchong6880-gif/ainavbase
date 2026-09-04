@@ -20,14 +20,16 @@ hero:
       link: /ai/summary
 
 features:
-  - title: "流媒体观影"
-    details: "Netflix、Disney+、Spotify会员和 YouTube各平台使用指南"
-    link: /streaming/summary
-    linkText: "查看观影指南"
-  - title: "合租与数字账号"
-    details: "比较流媒体合租、共享名额与独享数字账号渠道"
-    link: /serve/sharing/account-sharing-guide
-    linkText: "比较账号方案"
+  - title: "Ai 写作工具"
+    icon: 📝
+    details: "探索各类高效 AI 写作助手，提升你的内容创作与文案撰写效率"
+    link: /ai/summary
+    linkText: "查看写作指南"
+  - title: "Ai 图像工具"
+    icon: 🎨
+    details: "汇集 Midjourney、Stable Diffusion 等主流 AI 图像生成工具与设计资源"
+    link: /ai/summary
+    linkText: "查看图像指南"
   - title: "AI 使用汇总"
     details: "系统汇总 ChatGPT、Gemini等主流 AI 工具的使用教程"
     link: /ai/summary
