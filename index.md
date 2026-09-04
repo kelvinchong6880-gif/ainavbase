@@ -2,9 +2,9 @@
 layout: home
 
 hero:
-  name: "AI工具导航站"
-  text: "中文技术与数字服务"
-  tagline: "技术文档、VPN 机场与代理客户端、流媒体观影、AI 工具和数字账号指南"
+  name: "全网 AI 工具与数字导航"
+  text: "前沿科技与超级个体指南"
+  tagline: "全面收录全球前沿 AI 写作、绘画、编程等效率神器，并提供高质量流媒体观影、数字账号合租及科学上网资源，一站式赋能你的数字生活与副业变现。"
   actions:
     - theme: brand
       text: "比较 VPN 机场套餐"
