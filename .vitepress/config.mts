@@ -11,31 +11,13 @@ export default defineConfig({
     },
     
     nav: [
-      { text: '文档记录', link: '/docs/' },
-      { text: '前端文档', link: '/frontend/' },
-      { text: 'VMware ESXi', link: '/vmware/' },
-      { text: '把玩服务器', link: '/server/' },
-      { text: 'ASUS', link: '/asus/' },
-      { text: '流媒体观影', link: '/streaming/summary' },
-      {
-        text: 'AI 使用汇总',
-        items: [
-          { text: 'AI 使用汇总', link: '/ai/summary' },
-          { text: 'ChatGPT', link: '/ai/chatgpt' },
-          { text: 'Gemini', link: '/ai/gemini' }
-        ]
-      },
-      {
-        text: '服务推荐',
-        items: [
-          { text: 'VPN机场评测与套餐比较', link: '/serve/airport/summary' },
-          { text: '账号合租与数字账号', link: '/serve/sharing/account-sharing-guide' },
-          { text: '线路选择与避坑', link: '/serve/routing/' },
-          { text: 'VPN/代理客户端教程', link: '/serve/client/' },
-          { text: '接码平台', link: '/serve/sms/' },
-          { text: '关于与隐私', link: '/about/' }
-        ]
-      }
+      { text: '机场推荐', link: '/airport/recommend/' },
+      { text: '稳定机场', link: '/airport/stable/' },
+      { text: '便宜机场', link: '/airport/cheap/' },
+      { text: '老牌机场', link: '/airport/classic/' },
+      { text: '性价比机场', link: '/airport/value/' },
+      { text: '机场排行榜', link: '/airport/ranking/' },
+      { text: '优质机场', link: '/airport/premium/' }
     ],
 
     footer: {
