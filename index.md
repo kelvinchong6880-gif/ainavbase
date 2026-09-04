@@ -85,6 +85,11 @@ features:
     details: "探索 Hugging Face、Civitai 等开源模型库与本地大模型微调部署平台"
     link: /ai/summary
     linkText: "查看模型指南"
+  - title: "Ai 模型评测"
+    icon: 📊
+    details: "追踪 LMSYS Chatbot Arena、OpenCompass 等权威大语言模型性能排行榜"
+    link: /ai/summary
+    linkText: "查看评测榜单"
 ---
 <style>
 .VPHero, .VPHero .container, .VPHero .main {
