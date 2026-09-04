@@ -37,3 +37,18 @@ features:
     link: /serve/airport/summary
     linkText: "比较机场套餐"
 ---
+
+<style>
+.VPHero .main {
+  margin: 0 auto;
+  text-align: center;
+}
+.VPHero .name,
+.VPHero .text,
+.VPHero .tagline {
+  text-align: center !important;
+}
+.VPHero .actions {
+  justify-content: center !important;
+}
+</style>
