@@ -75,6 +75,11 @@ features:
     details: "探索 Perplexity、Kimi、秘塔 AI 搜索等新一代人工智能对话式搜索引擎"
     link: /ai/summary
     linkText: "查看搜索指南"
+  - title: "Ai 学习网站"
+    icon: 🎓
+    details: "汇总各类优质的人工智能入门教程、提示词（Prompt）进阶与前沿资讯网站"
+    link: /ai/summary
+    linkText: "查看学习指南"
 ---
 <style>
 .VPHero, .VPHero .container, .VPHero .main {
