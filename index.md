@@ -14,7 +14,7 @@ hero:
       link: /ai/summary
     - theme: alt
       text: "✈️ 优质机场与加速器"
-      link: /serve/airport/summary
+      link: /airport/recommend/weifeng
     - theme: alt
       text: "🍿 影音合租与低价账号"
       link: /serve/sharing/account-sharing-guide

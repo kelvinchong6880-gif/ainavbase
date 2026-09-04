@@ -63,7 +63,7 @@ export default defineConfig({
     },
     
     nav: [
-      { text: '机场推荐', link: '/airport/recommend/' },
+      { text: '机场推荐', link: '/airport/recommend/weifeng' },
       { text: '稳定机场', link: '/airport/stable/' },
       { text: '便宜机场', link: '/airport/cheap/' },
       { text: '老牌机场', link: '/airport/classic/' },
