@@ -12,6 +12,13 @@ export default defineConfig({
         width: auto !important;
         margin-right: 10px !important;
       }
+      .VPNavBar .content {
+        flex-grow: 1 !important;
+      }
+      .VPNavBarMenu {
+        flex-grow: 1 !important;
+        justify-content: center !important;
+      }
     `]
   ],
 
