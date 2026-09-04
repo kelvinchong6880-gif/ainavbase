@@ -37,26 +37,30 @@ features:
     link: /serve/airport/summary
     linkText: "比较机场套餐"
 ---
-
 <style>
-.VPHero, .VPHero .container {
-  display: flex !important;
-  justify-content: center !important;
-}
-.VPHero .main {
+.VPHero, .VPHero .container, .VPHero .main {
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
-  margin: 0 auto !important;
-}
-.VPHero .name,
-.VPHero .text,
-.VPHero .tagline {
-  text-align: center !important;
+  justify-content: center !important;
   width: 100% !important;
 }
+
+.VPHero .name,
+.VPHero .text,
+.VPHero .tagline,
+.VPHero .name .clip,
+.VPHero .text .clip {
+  text-align: center !important;
+  width: 100% !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .VPHero .actions {
   justify-content: center !important;
   width: 100% !important;
+  display: flex !important;
 }
 </style>
