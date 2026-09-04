@@ -70,6 +70,11 @@ features:
     details: "收录 Suno、Udio、ElevenLabs 等前沿 AI 音乐生成与高质量语音合成工具"
     link: /ai/summary
     linkText: "查看音频指南"
+  - title: "Ai 搜索引擎"
+    icon: 🔍
+    details: "探索 Perplexity、Kimi、秘塔 AI 搜索等新一代人工智能对话式搜索引擎"
+    link: /ai/summary
+    linkText: "查看搜索指南"
 ---
 <style>
 .VPHero, .VPHero .container, .VPHero .main {
