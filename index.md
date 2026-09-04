@@ -105,6 +105,21 @@ features:
     details: "发掘各类能够帮助你实现流量变现、自媒体运营与副业搞钱的 AI 效率工具"
     link: /ai/summary
     linkText: "查看副业指南"
+  - title: "Ai 翻译工具"
+    icon: 🌐
+    details: "盘点 DeepL、沉浸式翻译等大幅提升跨语言阅读与文献翻译效率的 AI 神器"
+    link: /ai/summary
+    linkText: "查看翻译指南"
+  - title: "Ai 数字人"
+    icon: 👩‍💼
+    details: "探索 HeyGen、腾讯智影等 AI 虚拟主播生成平台，助力短视频与直播变现"
+    link: /ai/summary
+    linkText: "查看数字人"
+  - title: "Ai 数据分析"
+    icon: 📈
+    details: "推荐 Julius AI、Advanced Data Analysis 等能帮你自动处理表格与数据可视化的工具"
+    link: /ai/summary
+    linkText: "查看数据工具"
 ---
 <style>
 .VPHero, .VPHero .container, .VPHero .main {
