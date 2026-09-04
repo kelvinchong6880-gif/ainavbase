@@ -55,6 +55,11 @@ features:
     details: "推荐 Cursor、GitHub Copilot 等提升研发效能的 AI 编程与代码辅助工具"
     link: /ai/summary
     linkText: "查看编程助手"
+  - title: "Ai 开发平台"
+    icon: ⚙️
+    details: "探索 Dify、Coze、FastGPT 等主流 AI Agent 与知识库大模型应用开发平台"
+    link: /ai/summary
+    linkText: "探索开发平台"
 ---
 <style>
 .VPHero, .VPHero .container, .VPHero .main {
