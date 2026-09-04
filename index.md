@@ -40,6 +40,11 @@ features:
     details: "探索 Notion AI、Gamma 等提高办公效率与制作演示文档的 AI 神器"
     link: /ai/summary
     linkText: "查看办公指南"
+  - title: "Ai 聊天助手"
+    icon: 💬
+    details: "比较 ChatGPT、Claude、Gemini 等主流 AI 大语言模型的使用技巧与聚合平台"
+    link: /ai/summary
+    linkText: "查看聊天助手"
 ---
 <style>
 .VPHero, .VPHero .container, .VPHero .main {
