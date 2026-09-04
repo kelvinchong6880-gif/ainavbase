@@ -85,7 +85,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: \`
+      message: `
         <div class="custom-footer">
           <div class="footer-column">
             <div class="footer-title">📌 站点信息</div>
@@ -111,7 +111,7 @@ export default defineConfig({
             <a href="https://huggingface.co" target="_blank" rel="noopener noreferrer">Hugging Face</a>
           </div>
         </div>
-      \`,
+      `,
       copyright: 'Copyright © 2024-present AI工具导航站'
     }
   }
