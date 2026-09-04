@@ -100,6 +100,11 @@ features:
     details: "收集 Midjourney 咒语、ChatGPT 系统指令等高质量 Prompt 模板库与编写指南"
     link: /ai/summary
     linkText: "查看提示词库"
+  - title: "Ai 副业工具"
+    icon: 💰
+    details: "发掘各类能够帮助你实现流量变现、自媒体运营与副业搞钱的 AI 效率工具"
+    link: /ai/summary
+    linkText: "查看副业指南"
 ---
 <style>
 .VPHero, .VPHero .container, .VPHero .main {
