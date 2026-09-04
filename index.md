@@ -30,14 +30,16 @@ features:
     details: "汇集 Midjourney、Stable Diffusion 等主流 AI 图像生成工具与设计资源"
     link: /ai/summary
     linkText: "查看图像指南"
-  - title: "AI 使用汇总"
-    details: "系统汇总 ChatGPT、Gemini等主流 AI 工具的使用教程"
+  - title: "Ai 视频工具"
+    icon: 🎬
+    details: "整理 Sora、Runway、Pika 等前沿 AI 视频生成工具与剪辑技巧"
     link: /ai/summary
-    linkText: "查看 AI 指南"
-  - title: "机场推荐与套餐对比"
-    details: "对比机场套餐价格、线路质量、客户端及流媒体与 AI 解锁范围"
-    link: /serve/airport/summary
-    linkText: "比较机场套餐"
+    linkText: "查看视频指南"
+  - title: "Ai 办公工具"
+    icon: 💼
+    details: "探索 Notion AI、Gamma 等提高办公效率与制作演示文档的 AI 神器"
+    link: /ai/summary
+    linkText: "查看办公指南"
 ---
 <style>
 .VPHero, .VPHero .container, .VPHero .main {
