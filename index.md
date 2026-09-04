@@ -60,6 +60,11 @@ features:
     details: "探索 Dify、Coze、FastGPT 等主流 AI Agent 与知识库大模型应用开发平台"
     link: /ai/summary
     linkText: "探索开发平台"
+  - title: "Ai 设计工具"
+    icon: 📐
+    details: "探索 Figma AI、Canva、即时设计等面向 UI/UX 与平面排版的 AI 辅助设计神器"
+    link: /ai/summary
+    linkText: "查看设计指南"
 ---
 <style>
 .VPHero, .VPHero .container, .VPHero .main {
