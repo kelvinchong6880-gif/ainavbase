@@ -65,6 +65,11 @@ features:
     details: "探索 Figma AI、Canva、即时设计等面向 UI/UX 与平面排版的 AI 辅助设计神器"
     link: /ai/summary
     linkText: "查看设计指南"
+  - title: "Ai 音频工具"
+    icon: 🎧
+    details: "收录 Suno、Udio、ElevenLabs 等前沿 AI 音乐生成与高质量语音合成工具"
+    link: /ai/summary
+    linkText: "查看音频指南"
 ---
 <style>
 .VPHero, .VPHero .container, .VPHero .main {
