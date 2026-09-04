@@ -40,29 +40,34 @@ export default defineConfig({
 
     footer: {
       message: `
-        <div style="display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; text-align: left; line-height: 1.8;">
-          <div>
-            <strong>VPN机场与线路</strong>
-            <ul style="list-style: none; padding: 0; margin: 0.5rem 0;">
-              <li><a href="/serve/airport/summary">机场推荐与评测</a></li>
-              <li><a href="/serve/routing/">线路选择与避坑</a></li>
-              <li><a href="/serve/client/">客户端教程</a></li>
-            </ul>
-          </div>
-          <div>
-            <strong>流媒体、账号与 AI</strong>
-            <ul style="list-style: none; padding: 0; margin: 0.5rem 0;">
-              <li><a href="/streaming/summary">流媒体观影指南</a></li>
-              <li><a href="/serve/sharing/account-sharing-guide">账号合租与独享</a></li>
-              <li><a href="/ai/summary">AI 综合使用汇总</a></li>
-            </ul>
-          </div>
+        <div style="display: flex; justify-content: center; gap: 4rem; flex-wrap: wrap; text-align: left; line-height: 1.8; margin-top: 1rem;">
           <div>
             <strong>站点信息</strong>
             <ul style="list-style: none; padding: 0; margin: 0.5rem 0;">
-              <li><a href="/about/">关于本站</a></li>
+              <li><a href="/about/">关于我们</a></li>
+              <li><a href="/contact/">联系我们</a></li>
               <li><a href="/privacy/">隐私政策</a></li>
-              <li><a href="/serve/sms/">接码平台</a></li>
+              <li><a href="/terms/">使用条款</a></li>
+              <li><a href="/disclaimer/">免责声明</a></li>
+            </ul>
+          </div>
+          <div>
+            <strong>友情链接</strong>
+            <ul style="list-style: none; padding: 0; margin: 0.5rem 0;">
+              <li><a href="https://clash-vpn.org" target="_blank" rel="noopener noreferrer">Clash VPN</a></li>
+              <li><a href="https://clashjiedian.org" target="_blank" rel="noopener noreferrer">Clash 节点</a></li>
+              <li><a href="https://findjichang.com" target="_blank" rel="noopener noreferrer">发现机场</a></li>
+              <li><a href="https://jichangdog.com" target="_blank" rel="noopener noreferrer">机场狗</a></li>
+              <li><a href="https://haoyongjichang.com" target="_blank" rel="noopener noreferrer">好用机场</a></li>
+            </ul>
+          </div>
+          <div>
+            <strong>推荐资源</strong>
+            <ul style="list-style: none; padding: 0; margin: 0.5rem 0;">
+              <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+              <li><a href="https://github.com/MetaCubeX/mihomo" target="_blank" rel="noopener noreferrer">Clash Meta</a></li>
+              <li><a href="https://openai.com" target="_blank" rel="noopener noreferrer">OpenAI</a></li>
+              <li><a href="https://huggingface.co" target="_blank" rel="noopener noreferrer">Hugging Face</a></li>
             </ul>
           </div>
         </div>
