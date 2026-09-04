@@ -80,6 +80,11 @@ features:
     details: "汇总各类优质的人工智能入门教程、提示词（Prompt）进阶与前沿资讯网站"
     link: /ai/summary
     linkText: "查看学习指南"
+  - title: "Ai 训练模型"
+    icon: 🧪
+    details: "探索 Hugging Face、Civitai 等开源模型库与本地大模型微调部署平台"
+    link: /ai/summary
+    linkText: "查看模型指南"
 ---
 <style>
 .VPHero, .VPHero .container, .VPHero .main {
