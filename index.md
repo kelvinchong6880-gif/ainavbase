@@ -7,17 +7,17 @@ hero:
   tagline: "全面收录全球前沿 AI 写作、绘画、编程等效率神器，并提供高质量流媒体观影、数字账号合租及科学上网资源，一站式赋能你的数字生活与副业变现。"
   actions:
     - theme: brand
-      text: "比较 VPN 机场套餐"
+      text: "🚀 探索顶级 AI 导航"
+      link: /ai/summary
+    - theme: alt
+      text: "💰 AI 副业变现指南"
+      link: /ai/summary
+    - theme: alt
+      text: "✈️ 优质机场与加速器"
       link: /serve/airport/summary
     - theme: alt
-      text: "比较账号与合租"
+      text: "🍿 影音合租与低价账号"
       link: /serve/sharing/account-sharing-guide
-    - theme: alt
-      text: "查看流媒体指南"
-      link: /streaming/summary
-    - theme: alt
-      text: "查看 AI 使用指南"
-      link: /ai/summary
 
 features:
   - title: "Ai 写作工具"
