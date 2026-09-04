@@ -38,6 +38,18 @@ export default defineConfig({
       { text: '优质机场', link: '/airport/premium/' }
     ],
 
+    sidebar: {
+      '/airport/': [
+        {
+          text: '机场推荐',
+          items: [
+            { text: '推荐汇总', link: '/airport/recommend/' },
+            { text: '微风 (Weifeng) 深度评测', link: '/airport/recommend/weifeng' }
+          ]
+        }
+      ]
+    },
+
     footer: {
       message: `
         <div style="display: flex; justify-content: center; gap: 4rem; flex-wrap: wrap; text-align: left; line-height: 1.8; margin-top: 1rem;">
