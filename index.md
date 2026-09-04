@@ -50,6 +50,11 @@ features:
     details: "探索更多前沿 AI 智能体、自动化工作流与综合型人工智能解决方案"
     link: /ai/summary
     linkText: "探索 AI 智能"
+  - title: "Ai 编程工具"
+    icon: 💻
+    details: "推荐 Cursor、GitHub Copilot 等提升研发效能的 AI 编程与代码辅助工具"
+    link: /ai/summary
+    linkText: "查看编程助手"
 ---
 <style>
 .VPHero, .VPHero .container, .VPHero .main {
