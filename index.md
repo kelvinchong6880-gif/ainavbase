@@ -39,16 +39,24 @@ features:
 ---
 
 <style>
+.VPHero, .VPHero .container {
+  display: flex !important;
+  justify-content: center !important;
+}
 .VPHero .main {
-  margin: 0 auto;
-  text-align: center;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  margin: 0 auto !important;
 }
 .VPHero .name,
 .VPHero .text,
 .VPHero .tagline {
   text-align: center !important;
+  width: 100% !important;
 }
 .VPHero .actions {
   justify-content: center !important;
+  width: 100% !important;
 }
 </style>
