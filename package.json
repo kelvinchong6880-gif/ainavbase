@@ -1,0 +1,18 @@
+{
+  "name": "eoht-blog",
+  "version": "1.0.0",
+  "description": "Eoht | 中文技术、VPN 机场、流媒体与 AI 指南",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.0",
+    "vue": "^3.0.0"
+  }
+}
