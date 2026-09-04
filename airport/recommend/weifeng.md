@@ -17,11 +17,24 @@ head:
 
 ## 🚀 微风机场快速直达与优惠信息
 
-对于想直接体验微风机场优质网络的用户，我们提供了官方专属注册通道与最新优惠码。
+<div style="background-color: var(--vp-c-bg-soft); border-radius: 12px; padding: 32px 24px; margin: 30px 0; text-align: center; border: 1px solid var(--vp-c-divider);">
+  <h3 style="margin-top: 0; margin-bottom: 24px; font-size: 1.5rem; color: var(--vp-c-text-1);">🎉 微风机场专属注册通道</h3>
+  
+  <div style="display: flex; justify-content: center; align-items: center; gap: 12px; margin-bottom: 30px; flex-wrap: wrap;">
+    <span style="font-size: 1.1rem; font-weight: bold; color: var(--vp-c-text-1);">独家优惠码：</span>
+    <code style="color: #e91e63; background: #fce4ec; padding: 6px 16px; border-radius: 6px; font-weight: bold; font-size: 1.3rem; border: 1px dashed #e91e63;">hM8APccJ</code>
+    <button @click="copyCode" style="background-color: var(--vp-c-brand); color: white; border: none; padding: 8px 16px; border-radius: 6px; cursor: pointer; font-size: 0.95rem; font-weight: bold; display: flex; align-items: center; gap: 6px; transition: opacity 0.2s;">
+      <svg v-if="!copied" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+      <svg v-else xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      {{ copied ? '复制成功！' : '一键复制' }}
+    </button>
+  </div>
 
-- **官方注册链接**：[👉 点击访问 微风机场 官网](https://edp01.breezenetaff.com/#/?code=hM8APccJ)
-- **独家优惠码**：<code style="color: #e91e63; background: #fce4ec; padding: 4px 8px; border-radius: 4px; font-weight: bold;">hM8APccJ</code>
-- **综合评分**：⭐ 4.8 / 5.0（倾力推荐）
+  <a href="https://edp01.breezenetaff.com/#/?code=hM8APccJ" target="_blank" style="display: inline-block; width: 100%; max-width: 340px; padding: 18px 24px; background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); color: white; text-align: center; border-radius: 50px; font-weight: bold; font-size: 1.3rem; text-decoration: none; box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3); transition: transform 0.2s, box-shadow 0.2s;">
+    🚀 点击前往微风官网注册
+  </a>
+  <p style="margin-top: 20px; margin-bottom: 0; font-size: 0.95rem; color: var(--vp-c-text-2);">综合评分：⭐ 4.8 / 5.0（倾力推荐）</p>
+</div>
 
 ---
 
@@ -102,3 +115,18 @@ head:
 如果你还在犹豫不决，不妨先通过我们的 [专属链接](https://edp01.breezenetaff.com/#/?code=hM8APccJ) 注册，购买一个月基础版试试水，体验真正的微风拂面、全网秒开的畅快感！
 
 > 免责声明：本文章仅用于技术分享与评测，请在遵守您所在国家和地区相关法律法规的前提下使用代理服务，切勿用于任何违法违规用途。
+
+<script setup>
+import { ref } from 'vue'
+
+const copied = ref(false)
+
+const copyCode = () => {
+  if (typeof navigator !== 'undefined' && navigator.clipboard) {
+    navigator.clipboard.writeText('hM8APccJ').then(() => {
+      copied.value = true
+      setTimeout(() => { copied.value = false }, 2000)
+    })
+  }
+}
+</script>
