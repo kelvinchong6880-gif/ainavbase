@@ -69,7 +69,8 @@ export default defineConfig({
       { text: '老牌机场', link: '/airport/classic/' },
       { text: '性价比机场', link: '/airport/value/' },
       { text: '机场排行榜', link: '/airport/ranking/' },
-      { text: '优质机场', link: '/airport/premium/' }
+      { text: '优质机场', link: '/airport/premium/' },
+      { text: '一元机场', link: '/airport/oneyuan/' }
     ],
 
     sidebar: {
@@ -79,6 +80,23 @@ export default defineConfig({
           items: [
             { text: '推荐汇总', link: '/airport/recommend/' },
             { text: '微风 (Weifeng) 深度评测', link: '/airport/recommend/weifeng' }
+          ]
+        }
+      ],
+      '/ai/': [
+        {
+          text: 'AI 工具指南',
+          items: [
+            { text: 'AI 写作工具', link: '/ai/writing/' },
+            { text: 'AI 图像工具', link: '/ai/image/' },
+            { text: 'AI 视频工具', link: '/ai/video/' },
+            { text: 'AI 办公工具', link: '/ai/office/' },
+            { text: 'AI 聊天助手', link: '/ai/chat/' },
+            { text: 'AI 智能体', link: '/ai/agent/' },
+            { text: 'AI 编程工具', link: '/ai/coding/' },
+            { text: 'AI 开发平台', link: '/ai/dev/' },
+            { text: 'AI 设计工具', link: '/ai/design/' },
+            { text: 'AI 音频工具', link: '/ai/audio/' }
           ]
         }
       ]
@@ -109,6 +127,19 @@ export default defineConfig({
             <a href="https://github.com/MetaCubeX/mihomo" target="_blank" rel="noopener noreferrer">Clash Meta</a>
             <a href="https://openai.com" target="_blank" rel="noopener noreferrer">OpenAI</a>
             <a href="https://huggingface.co" target="_blank" rel="noopener noreferrer">Hugging Face</a>
+          </div>
+          <div class="footer-column">
+            <div class="footer-title">🤖 AI 工具</div>
+            <a href="/ai/writing/">Ai写作工具</a>
+            <a href="/ai/image/">Ai图像工具</a>
+            <a href="/ai/video/">Ai视频工具</a>
+            <a href="/ai/office/">Ai办公工具</a>
+            <a href="/ai/chat/">Ai聊天助手</a>
+            <a href="/ai/agent/">Ai智能体</a>
+            <a href="/ai/coding/">Ai编程工具</a>
+            <a href="/ai/dev/">Ai开发平台</a>
+            <a href="/ai/design/">Ai设计工具</a>
+            <a href="/ai/audio/">Ai音频工具</a>
           </div>
         </div>
       `,
