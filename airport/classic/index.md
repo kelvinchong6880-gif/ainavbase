@@ -24,6 +24,41 @@ outline: false
 <script setup>
 import ProviderCard from '../../.vitepress/components/ProviderCard.vue'
 
+const sogoData = {
+  name: 'sogo云',
+  logo: '/sogoyun-logo.webp',
+  badgeText: '极速稳定',
+  rating: '4.9',
+  description: '全 IPLC/IEPL 专线，原生 IP 解锁流媒体，支持 ChatGPT 和 TikTok，不限设备并发',
+  coverage: ['香港', '台湾', '日本', '新加坡', '美国', '韩国', '英国', '法国', '德国', '土耳其', '巴西等'],
+  reviewLink: '/airport/recommend/sogo.html',
+  status: [
+    { label: '30天在线率', value: '99.9%' },
+    { label: '节点总数', value: '80+' }
+  ],
+  streaming: ['Netflix', 'Disney+', 'ChatGPT', 'TikTok', 'YouTube'],
+  clients: ['Windows', 'macOS', 'iOS', 'Android', '路由器'],
+  payment: ['支付宝', '微信支付'],
+  protocols: ['Shadowsocks', 'Vmess', 'Trojan'],
+  ai: ['ChatGPT', 'Gemini', 'Claude AI'],
+  lines: ['IPLC 专线', 'IEPL 专线', '原生 IP'],
+  support: ['高效客服响应', '工单系统'],
+  plans: [
+    { name: '小包-年付版', price: '¥98.00/年', traffic: '60GB / 月', devices: '不限' },
+    { name: '基础版', price: '¥25.00/月', traffic: '150GB / 月', devices: '不限' },
+    { name: '优选版', price: '¥45.00/月', traffic: '350GB / 月', devices: '不限' },
+    { name: '强化版', price: '¥80.00/月', traffic: '550GB / 月', devices: '不限' },
+    { name: '顶配版', price: '¥150.00/月', traffic: '1.1TB / 月', devices: '不限' },
+    { name: '基础餐不限时版', price: '¥120.00/次', traffic: '120GB / 一次性', devices: '不限' },
+    { name: '优选餐不限时版', price: '¥220.00/次', traffic: '250GB / 一次性', devices: '不限' },
+    { name: '强化餐不限时版', price: '¥450.00/次', traffic: '500GB / 一次性', devices: '不限' },
+    { name: '至尊餐不限时版', price: '¥850.00/次', traffic: '1.0TB / 一次性', devices: '不限' }
+  ],
+  coupon: 'BC2BL855',
+  registerLink: 'https://wzjc.sogoyunaff.cc/#/?code=BC2BL855'
+}
+
+
 const weifengData = {
   name: '微风',
   logo: '/weifeng-logo.png',
@@ -121,6 +156,8 @@ const shanyueData = {
 # 老牌机场
 
 运营时间长、信誉好的老牌机场。
+
+<ProviderCard :provider="sogoData" />
 
 <ProviderCard :provider="weifengData" />
 

@@ -25,6 +25,7 @@ outline: false
 import RankingList from '../../.vitepress/components/RankingList.vue'
 
 const rankingData = [
+  { name: 'sogo云', logo: '/sogoyun-logo.webp', rating: '4.9', description: '全 IPLC/IEPL 专线，原生 IP', price: '25.00', link: 'https://wzjc.sogoyunaff.cc/#/?code=BC2BL855' },
   { name: '微风', logo: '/weifeng-logo.png', rating: '4.8', description: '全 IPLC 线路，极简稳定', price: '19.00', link: 'https://edp01.breezenetaff.com/#/?code=hM8APccJ' },
   { name: '飞猫云', logo: '/feimaoyun-logo.png', rating: '4.8', description: '最高 2.5Gbps, 原生 IP', price: '25.00', link: 'https://flycat1.flycatvipaff.cc/#/?code=w5lO9fqB' },
   { name: 'Firefly', logo: '/firefly-logo.png', rating: '4.8', description: '纯正 IPLC，不限速不限设备', price: '25.00', link: 'https://vip02.fireflyaff.com/#/?code=8nDg6OEY' },

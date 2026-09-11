@@ -14,7 +14,7 @@ hero:
       link: /ai/summary
     - theme: alt
       text: "✈️ 优质机场与加速器"
-      link: /airport/recommend/weifeng
+      link: /airport/recommend/sogo
     - theme: alt
       text: "🍿 影音合租与低价账号"
       link: /serve/sharing/account-sharing-guide
@@ -73,37 +73,37 @@ features:
   - title: "Ai 搜索引擎"
     icon: 🔍
     details: "探索 Perplexity、Kimi、秘塔 AI 搜索等新一代人工智能对话式搜索引擎"
-    link: /ai/summary
+    link: /ai/search/
     linkText: "查看搜索指南"
   - title: "Ai 学习网站"
     icon: 🎓
     details: "汇总各类优质的人工智能入门教程、提示词（Prompt）进阶与前沿资讯网站"
-    link: /ai/summary
+    link: /ai/learning/
     linkText: "查看学习指南"
   - title: "Ai 训练模型"
     icon: 🧪
     details: "探索 Hugging Face、Civitai 等开源模型库与本地大模型微调部署平台"
-    link: /ai/summary
+    link: /ai/models/
     linkText: "查看模型指南"
   - title: "Ai 模型评测"
     icon: 📊
     details: "追踪 LMSYS Chatbot Arena、OpenCompass 等权威大语言模型性能排行榜"
-    link: /ai/summary
+    link: /ai/evaluation/
     linkText: "查看评测榜单"
   - title: "Ai 内容检测"
     icon: 🛡️
     details: "推荐 GPTZero、Originality.ai 等检测 AI 生成文本、图像与防学术抄袭的实用工具"
-    link: /ai/summary
+    link: /ai/detection/
     linkText: "查看检测工具"
   - title: "Ai 提示词指令"
     icon: 🪄
     details: "收集 Midjourney 咒语、ChatGPT 系统指令等高质量 Prompt 模板库与编写指南"
-    link: /ai/summary
+    link: /ai/prompts/
     linkText: "查看提示词库"
   - title: "Ai 副业工具"
     icon: 💰
     details: "发掘各类能够帮助你实现流量变现、自媒体运营与副业搞钱的 AI 效率工具"
-    link: /ai/summary
+    link: /ai/sidehustle/
     linkText: "查看副业指南"
 ---
 <style>

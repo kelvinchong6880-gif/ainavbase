@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "AI工具导航站",
   description: "汇总 Linux、Docker、VPS 中文技术文档，提供流媒体、AI 工具及账号使用指南。",
+  cleanUrls: true,
   
   head: [
     ['style', {}, `
@@ -63,7 +64,7 @@ export default defineConfig({
     },
     
     nav: [
-      { text: '机场推荐', link: '/airport/recommend/weifeng' },
+      { text: '机场推荐', link: '/airport/recommend/sogo' },
       { text: '稳定机场', link: '/airport/stable/' },
       { text: '便宜机场', link: '/airport/cheap/' },
       { text: '老牌机场', link: '/airport/classic/' },
@@ -79,24 +80,42 @@ export default defineConfig({
           text: '机场推荐',
           items: [
             { text: '推荐汇总', link: '/airport/recommend/' },
+            { text: 'sogo云 深度评测', link: '/airport/recommend/sogo' },
             { text: '微风 (Weifeng) 深度评测', link: '/airport/recommend/weifeng' }
           ]
         }
       ],
       '/ai/': [
         {
-          text: 'AI 工具指南',
+          text: '🤖 AI 创作与办公',
           items: [
-            { text: 'AI 写作工具', link: '/ai/writing/' },
-            { text: 'AI 图像工具', link: '/ai/image/' },
-            { text: 'AI 视频工具', link: '/ai/video/' },
-            { text: 'AI 办公工具', link: '/ai/office/' },
-            { text: 'AI 聊天助手', link: '/ai/chat/' },
-            { text: 'AI 智能体', link: '/ai/agent/' },
-            { text: 'AI 编程工具', link: '/ai/coding/' },
-            { text: 'AI 开发平台', link: '/ai/dev/' },
-            { text: 'AI 设计工具', link: '/ai/design/' },
-            { text: 'AI 音频工具', link: '/ai/audio/' }
+            { text: 'Ai写作工具', link: '/ai/writing/' },
+            { text: 'Ai图像工具', link: '/ai/image/' },
+            { text: 'Ai视频工具', link: '/ai/video/' },
+            { text: 'Ai办公工具', link: '/ai/office/' },
+            { text: 'Ai聊天助手', link: '/ai/chat/' },
+            { text: 'Ai智能体', link: '/ai/agent/' }
+          ]
+        },
+        {
+          text: '💻 AI 开发与设计',
+          items: [
+            { text: 'Ai编程工具', link: '/ai/coding/' },
+            { text: 'Ai开发平台', link: '/ai/dev/' },
+            { text: 'Ai设计工具', link: '/ai/design/' },
+            { text: 'Ai音频工具', link: '/ai/audio/' },
+            { text: 'Ai搜索引擎', link: '/ai/search/' },
+            { text: 'Ai学习网站', link: '/ai/learning/' }
+          ]
+        },
+        {
+          text: '🚀 AI 模型与拓展',
+          items: [
+            { text: 'Ai训练模型', link: '/ai/models/' },
+            { text: 'Ai模型评测', link: '/ai/evaluation/' },
+            { text: 'Ai内容检测', link: '/ai/detection/' },
+            { text: 'Ai提示词指令', link: '/ai/prompts/' },
+            { text: 'Ai副业工具', link: '/ai/sidehustle/' }
           ]
         }
       ]
@@ -117,7 +136,7 @@ export default defineConfig({
             <div class="footer-title">🤝 友情链接</div>
             <a href="https://clash-vpn.org" target="_blank" rel="noopener noreferrer">Clash VPN</a>
             <a href="https://clashjiedian.org" target="_blank" rel="noopener noreferrer">Clash 节点</a>
-            <a href="https://findjichang.com" target="_blank" rel="noopener noreferrer">发现机场</a>
+            <a href="https://findjichang.com" target="_blank" rel="noopener noreferrer">找机场</a>
             <a href="https://jichangdog.com" target="_blank" rel="noopener noreferrer">机场狗</a>
             <a href="https://haoyongjichang.com" target="_blank" rel="noopener noreferrer">好用机场</a>
           </div>
@@ -129,21 +148,34 @@ export default defineConfig({
             <a href="https://huggingface.co" target="_blank" rel="noopener noreferrer">Hugging Face</a>
           </div>
           <div class="footer-column">
-            <div class="footer-title">🤖 AI 工具</div>
+            <div class="footer-title">🤖 AI 创作与办公</div>
             <a href="/ai/writing/">Ai写作工具</a>
             <a href="/ai/image/">Ai图像工具</a>
             <a href="/ai/video/">Ai视频工具</a>
             <a href="/ai/office/">Ai办公工具</a>
             <a href="/ai/chat/">Ai聊天助手</a>
             <a href="/ai/agent/">Ai智能体</a>
+          </div>
+          <div class="footer-column">
+            <div class="footer-title">💻 AI 开发与设计</div>
             <a href="/ai/coding/">Ai编程工具</a>
             <a href="/ai/dev/">Ai开发平台</a>
             <a href="/ai/design/">Ai设计工具</a>
             <a href="/ai/audio/">Ai音频工具</a>
+            <a href="/ai/search/">Ai搜索引擎</a>
+            <a href="/ai/learning/">Ai学习网站</a>
+          </div>
+          <div class="footer-column">
+            <div class="footer-title">🚀 AI 模型与拓展</div>
+            <a href="/ai/models/">Ai训练模型</a>
+            <a href="/ai/evaluation/">Ai模型评测</a>
+            <a href="/ai/detection/">Ai内容检测</a>
+            <a href="/ai/prompts/">Ai提示词指令</a>
+            <a href="/ai/sidehustle/">Ai副业工具</a>
           </div>
         </div>
       `,
-      copyright: 'Copyright © 2024-present AI工具导航站'
+      copyright: 'Copyright © 2026-present AI工具导航站'
     }
   }
 })
