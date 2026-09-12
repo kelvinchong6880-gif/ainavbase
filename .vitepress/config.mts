@@ -64,24 +64,59 @@ export default defineConfig({
     },
     
     nav: [
-      { text: '机场推荐', link: '/airport/recommend/sogo' },
-      { text: '稳定机场', link: '/airport/stable/' },
-      { text: '便宜机场', link: '/airport/cheap/' },
-      { text: '老牌机场', link: '/airport/classic/' },
-      { text: '性价比机场', link: '/airport/value/' },
-      { text: '机场排行榜', link: '/airport/ranking/' },
-      { text: '优质机场', link: '/airport/premium/' },
-      { text: '一元机场', link: '/airport/oneyuan/' }
+      {
+        text: '✈️ 科学上网',
+        items: [
+          { text: '机场推荐', link: '/airport/recommend/sogo' },
+          { text: '机场排行榜', link: '/airport/ranking/' },
+          { text: '稳定机场', link: '/airport/stable/' },
+          { text: '老牌机场', link: '/airport/classic/' },
+          { text: '性价比机场', link: '/airport/value/' },
+          { text: '优质机场', link: '/airport/premium/' },
+          { text: '便宜机场', link: '/airport/cheap/' },
+          { text: '一元机场', link: '/airport/oneyuan/' }
+        ]
+      },
+      {
+        text: '🤖 AI 工具导航',
+        items: [
+          { text: 'AI 工具汇总', link: '/ai/summary' },
+          { text: 'AI 副业变现', link: '/ai/sidehustle/' },
+          { text: 'AI 写作工具', link: '/ai/writing/' },
+          { text: 'AI 图像工具', link: '/ai/image/' },
+          { text: 'AI 视频工具', link: '/ai/video/' },
+          { text: 'AI 编程辅助', link: '/ai/coding/' },
+          { text: 'AI 提示词指令', link: '/ai/prompts/' }
+        ]
+      },
+      {
+        text: '🍿 流媒体与账号',
+        items: [
+          { text: '账号合租指南', link: '/serve/sharing/account-sharing-guide' }
+        ]
+      }
     ],
 
     sidebar: {
       '/airport/': [
         {
-          text: '机场推荐',
+          text: '✈️ 科学上网',
           items: [
-            { text: '推荐汇总', link: '/airport/recommend/' },
+            { text: '机场排行榜', link: '/airport/ranking/' },
             { text: 'sogo云 深度评测', link: '/airport/recommend/sogo' },
+            { text: '稳定机场', link: '/airport/stable/' },
+            { text: '老牌机场', link: '/airport/classic/' },
+            { text: '性价比机场', link: '/airport/value/' },
+            { text: '优质机场', link: '/airport/premium/' },
             { text: '微风 (Weifeng) 深度评测', link: '/airport/recommend/weifeng' }
+          ]
+        }
+      ],
+      '/serve/': [
+        {
+          text: '🍿 影音合租与低价账号',
+          items: [
+            { text: '账号合租指南', link: '/serve/sharing/account-sharing-guide' }
           ]
         }
       ],
@@ -89,6 +124,7 @@ export default defineConfig({
         {
           text: '🤖 AI 创作与办公',
           items: [
+            { text: 'AI 工具汇总', link: '/ai/summary' },
             { text: 'Ai写作工具', link: '/ai/writing/' },
             { text: 'Ai图像工具', link: '/ai/image/' },
             { text: 'Ai视频工具', link: '/ai/video/' },
@@ -111,11 +147,11 @@ export default defineConfig({
         {
           text: '🚀 AI 模型与拓展',
           items: [
+            { text: 'Ai副业变现指南', link: '/ai/sidehustle/' },
             { text: 'Ai训练模型', link: '/ai/models/' },
             { text: 'Ai模型评测', link: '/ai/evaluation/' },
             { text: 'Ai内容检测', link: '/ai/detection/' },
-            { text: 'Ai提示词指令', link: '/ai/prompts/' },
-            { text: 'Ai副业工具', link: '/ai/sidehustle/' }
+            { text: 'Ai提示词指令', link: '/ai/prompts/' }
           ]
         }
       ]
