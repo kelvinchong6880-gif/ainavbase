@@ -64,19 +64,14 @@ export default defineConfig({
     },
     
     nav: [
-      {
-        text: '✈️ 科学上网',
-        items: [
-          { text: '机场推荐', link: '/airport/recommend/sogo' },
-          { text: '机场排行榜', link: '/airport/ranking/' },
-          { text: '稳定机场', link: '/airport/stable/' },
-          { text: '老牌机场', link: '/airport/classic/' },
-          { text: '性价比机场', link: '/airport/value/' },
-          { text: '优质机场', link: '/airport/premium/' },
-          { text: '便宜机场', link: '/airport/cheap/' },
-          { text: '一元机场', link: '/airport/oneyuan/' }
-        ]
-      },
+      { text: '机场推荐', link: '/airport/recommend/sogo' },
+      { text: '机场排行榜', link: '/airport/ranking/' },
+      { text: '稳定机场', link: '/airport/stable/' },
+      { text: '老牌机场', link: '/airport/classic/' },
+      { text: '性价比机场', link: '/airport/value/' },
+      { text: '优质机场', link: '/airport/premium/' },
+      { text: '便宜机场', link: '/airport/cheap/' },
+      { text: '一元机场', link: '/airport/oneyuan/' },
       {
         text: '🤖 AI 工具导航',
         items: [
