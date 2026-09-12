@@ -5,8 +5,12 @@ export default defineConfig({
   title: "AI工具导航站",
   description: "汇总 Linux、Docker、VPS 中文技术文档，提供流媒体、AI 工具及账号使用指南。",
   cleanUrls: true,
+  sitemap: {
+    hostname: 'https://ainavbase.com'
+  },
   
   head: [
+    ['link', { rel: 'icon', href: '/logo.png' }],
     ['style', {}, `
       .VPNavBarTitle .logo { 
         height: 48px !important; 
