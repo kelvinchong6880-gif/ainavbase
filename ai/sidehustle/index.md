@@ -11,23 +11,23 @@ head:
 import ToolCard from '../../.vitepress/components/ToolCard.vue'
 
 const tools = [
-  {"name": "CakeGrowth", "desc": "首个专注 AI 应用的一站式联盟...", "logo": "/ai-logos/cakegrowth.png", "link": "#"},
-  {"name": "模觉", "desc": "AI数据众包与专家服务平台", "logo": "/ai-logos/mojue.png", "link": "#"},
-  {"name": "Linktree", "desc": "链接聚合工具，支持多链接整...", "logo": "/ai-logos/linktree.png", "link": "#"},
-  {"name": "Bitly", "desc": "链接管理平台与 URL 短链接服...", "logo": "/ai-logos/bitly.png", "link": "#"},
-  {"name": "PartnerStack", "desc": "领先的合作伙伴生态系统平台", "logo": "/ai-logos/partnerstack.png", "link": "#"},
-  {"name": "impact.com", "desc": "AI 原生合作伙伴关系管理平台", "logo": "/ai-logos/impact.png", "link": "#"},
-  {"name": "微信公众平台", "desc": "腾讯推出的官方内容创作与服...", "logo": "/ai-logos/mpweixin.png", "link": "#"},
-  {"name": "头条号", "desc": "字节跳动推出的内容创作平台", "logo": "/ai-logos/toutiaohao.png", "link": "#"},
-  {"name": "新榜", "desc": "新媒体数据服务平台", "logo": "/ai-logos/newrank.png", "link": "#"},
-  {"name": "稀土掘金", "desc": "领先的技术内容社区与开发者...", "logo": "/ai-logos/juejin.png", "link": "#"},
-  {"name": "知乎", "desc": "内容创作者的一站式创作服务...", "logo": "/ai-logos/zhihu.png", "link": "#"},
-  {"name": "CSDN", "desc": "专业的开发者社区", "logo": "/ai-logos/csdn.png", "link": "#"},
-  {"name": "百家号", "desc": "百度推出的内容创作平台，集...", "logo": "/ai-logos/baijiahao.png", "link": "#"},
-  {"name": "小红书创作服务平台", "desc": "一站式创作者服务工作平台", "logo": "/ai-logos/xiaohongshu.png", "link": "#"},
-  {"name": "小报童", "desc": "flomo 团队推出的付费内容服...", "logo": "/ai-logos/xiaobot.png", "link": "#"},
-  {"name": "知识星球", "desc": "内容创作者的知识社群运营工具", "logo": "/ai-logos/zsxq.png", "link": "#"},
-  {"name": "小鹅通", "desc": "专注私域运营的一站式SaaS平台", "logo": "/ai-logos/xiaoe.png", "link": "#"}
+  {"name": "CakeGrowth", "desc": "首个专注 AI 应用的一站式联盟...", "logo": "/ai-logos/cakegrowth.png", "link": "https://www.bing.com/search?q=CakeGrowth"},
+  {"name": "模觉", "desc": "AI数据众包与专家服务平台", "logo": "/ai-logos/mojue.png", "link": "https://www.bing.com/search?q=%E6%A8%A1%E8%A7%89"},
+  {"name": "Linktree", "desc": "链接聚合工具，支持多链接整...", "logo": "/ai-logos/linktree.png", "link": "https://www.bing.com/search?q=Linktree"},
+  {"name": "Bitly", "desc": "链接管理平台与 URL 短链接服...", "logo": "/ai-logos/bitly.png", "link": "https://www.bing.com/search?q=Bitly"},
+  {"name": "PartnerStack", "desc": "领先的合作伙伴生态系统平台", "logo": "/ai-logos/partnerstack.png", "link": "https://www.bing.com/search?q=PartnerStack"},
+  {"name": "impact.com", "desc": "AI 原生合作伙伴关系管理平台", "logo": "/ai-logos/impact.png", "link": "https://www.bing.com/search?q=impact.com"},
+  {"name": "微信公众平台", "desc": "腾讯推出的官方内容创作与服...", "logo": "/ai-logos/mpweixin.png", "link": "https://www.bing.com/search?q=%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%B9%B3%E5%8F%B0"},
+  {"name": "头条号", "desc": "字节跳动推出的内容创作平台", "logo": "/ai-logos/toutiaohao.png", "link": "https://www.bing.com/search?q=%E5%A4%B4%E6%9D%A1%E5%8F%B7"},
+  {"name": "新榜", "desc": "新媒体数据服务平台", "logo": "/ai-logos/newrank.png", "link": "https://www.bing.com/search?q=%E6%96%B0%E6%A6%9C"},
+  {"name": "稀土掘金", "desc": "领先的技术内容社区与开发者...", "logo": "/ai-logos/juejin.png", "link": "https://www.bing.com/search?q=%E7%A8%80%E5%9C%9F%E6%8E%98%E9%87%91"},
+  {"name": "知乎", "desc": "内容创作者的一站式创作服务...", "logo": "/ai-logos/zhihu.png", "link": "https://www.bing.com/search?q=%E7%9F%A5%E4%B9%8E"},
+  {"name": "CSDN", "desc": "专业的开发者社区", "logo": "/ai-logos/csdn.png", "link": "https://www.bing.com/search?q=CSDN"},
+  {"name": "百家号", "desc": "百度推出的内容创作平台，集...", "logo": "/ai-logos/baijiahao.png", "link": "https://www.bing.com/search?q=%E7%99%BE%E5%AE%B6%E5%8F%B7"},
+  {"name": "小红书创作服务平台", "desc": "一站式创作者服务工作平台", "logo": "/ai-logos/xiaohongshu.png", "link": "https://www.bing.com/search?q=%E5%B0%8F%E7%BA%A2%E4%B9%A6%E5%88%9B%E4%BD%9C%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0"},
+  {"name": "小报童", "desc": "flomo 团队推出的付费内容服...", "logo": "/ai-logos/xiaobot.png", "link": "https://www.bing.com/search?q=%E5%B0%8F%E6%8A%A5%E7%AB%A5"},
+  {"name": "知识星球", "desc": "内容创作者的知识社群运营工具", "logo": "/ai-logos/zsxq.png", "link": "https://www.bing.com/search?q=%E7%9F%A5%E8%AF%86%E6%98%9F%E7%90%83"},
+  {"name": "小鹅通", "desc": "专注私域运营的一站式SaaS平台", "logo": "/ai-logos/xiaoe.png", "link": "https://www.bing.com/search?q=%E5%B0%8F%E9%B9%85%E9%80%9A"}
 ]
 </script>
 
