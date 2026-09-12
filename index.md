@@ -11,7 +11,7 @@ hero:
       link: /ai/summary
     - theme: alt
       text: "💰 AI 副业变现指南"
-      link: /ai/summary
+      link: /ai/sidehustle/
     - theme: alt
       text: "✈️ 优质机场与加速器"
       link: /airport/recommend/sogo
