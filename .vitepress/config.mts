@@ -62,6 +62,9 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/kelvinchong6880-gif/ainavbase' }
+    ],
     
     nav: [
       { text: '机场推荐', link: '/airport/recommend/sogo' },
@@ -88,6 +91,16 @@ export default defineConfig({
         text: '🍿 流媒体与账号',
         items: [
           { text: '账号合租指南', link: '/serve/sharing/account-sharing-guide' }
+        ]
+      },
+      {
+        text: '⬇️ 客户端下载',
+        items: [
+          { text: 'Clash (GitHub)', link: 'https://github.com/MetaCubeX/mihomo' },
+          { text: 'Shadowrocket', link: 'https://apps.apple.com/us/app/shadowrocket/id932747118' },
+          { text: 'v2rayN (x2rayN)', link: 'https://github.com/2dust/v2rayN' },
+          { text: 'Stash', link: 'https://stash.ws/' },
+          { text: 'sing-box', link: 'https://sing-box.sagernet.org/' }
         ]
       }
     ],
