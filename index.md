@@ -106,6 +106,73 @@ features:
     link: /ai/sidehustle/
     linkText: "查看副业指南"
 ---
+
+<div class="faq-section">
+  <h2>常见问题解答 (FAQ)</h2>
+  <div class="faq-grid">
+    <details class="faq-item">
+      <summary>机场和 VPN 有什么区别？</summary>
+      <div class="faq-content">
+        传统 VPN（如 ExpressVPN）主要为了加密和隐私，通常使用标准的公网传输，在特定的网络环境下容易被识别和干扰。而“机场”通常是指采用 Shadowsocks、Vmess、Trojan 等代理协议，并配备专线（如 IPLC/IEPL）进行数据转发的服务商。它的主要目的是突破网络封锁，速度更快、延迟更低，尤其适合流媒体解锁和日常海外工作。
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>机场和梯子是一回事吗？</summary>
+      <div class="faq-content">
+        在日常交流中，“梯子”是一个统称，泛指所有能越过网络封锁的工具。而“机场”是梯子的一种特定形式，具体指提供批量节点订阅链接、让用户在第三方客户端（如 Clash、Shadowrocket）上配置使用的服务商平台。
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>机场推荐应该看哪些因素？</summary>
+      <div class="faq-content">
+        选择机场主要看以下几点：<br>1. <strong>线路质量</strong>：是否有 IPLC/IEPL 专线，晚高峰是否保证不限速。<br>2. <strong>流媒体与AI解锁</strong>：是否提供原生 IP，能否稳定使用 ChatGPT 和观看 Netflix 等。<br>3. <strong>稳定性与运营时间</strong>：老牌机场通常技术积淀更深，跑路风险低。<br>4. <strong>设备并发数</strong>：是否支持多设备（手机、电脑）同时在线。<br>5. <strong>性价比</strong>：价格与流量是否匹配您的实际使用需求。
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>2026 年还有稳定机场推荐吗？</summary>
+      <div class="faq-content">
+        当然有。经过市场的优胜劣汰，目前留存下来的老牌专线机场都具备极高的稳定性。例如本站重点推荐的 <strong>sogo云</strong> 等全 IPLC 专线机场，凭借其原生 IP 和不限设备的优势，依然是 2026 年非常值得信赖的优质选择。
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>机场订阅链接怎么导入 Clash？</summary>
+      <div class="faq-content">
+        1. 打开 Clash 客户端 (如 Clash Verge 或 Clash for Windows)。<br>2. 找到左侧的“配置 (Profiles)”或“订阅 (Subscriptions)”。<br>3. 将机场官网复制的订阅链接粘贴到 URL 输入框。<br>4. 点击“下载 (Download)”，下载成功后在配置列表中选中该配置即可使用。
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>机场订阅链接怎么导入 Shadowrocket？</summary>
+      <div class="faq-content">
+        1. 在 iOS 设备上打开 Shadowrocket（小火箭）。<br>2. 点击右上角的“+”号。<br>3. 将“类型”选择为“Subscribe (订阅)”。<br>4. 将订阅链接粘贴到 URL 栏，备注填入机场名称。<br>5. 点击右上角“保存”，回到主界面下拉刷新即可获取所有节点。
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>机场订阅链接怎么导入 v2rayN？</summary>
+      <div class="faq-content">
+        1. 打开 v2rayN（Windows 客户端）。<br>2. 点击顶部菜单栏的“订阅” -> 选择“订阅设置”。<br>3. 点击“添加”，在“地址”栏填入您的机场订阅链接并保存。<br>4. 回到主界面，点击“订阅” -> “更新订阅”即可成功拉取节点。
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>机场订阅链接怎么导入 Stash？</summary>
+      <div class="faq-content">
+        1. 在 iOS 上打开 Stash 客户端。<br>2. 点击底部导航栏的“设置”。<br>3. 选择“配置文件” -> “从 URL 下载”。<br>4. 粘贴您的订阅链接并点击下载，完成后选用该配置即可。
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>机场订阅链接怎么导入 Quantumult X？</summary>
+      <div class="faq-content">
+        1. 打开 Quantumult X (圈X)。<br>2. 点击右下角的大风车图标进入设置菜单。<br>3. 找到“节点”选项卡，点击“引用 (订阅)”。<br>4. 粘贴订阅链接并点击右上角的保存。<br>5. 回到主界面，长按节点按钮即可展开并选择相应的节点线路。
+      </div>
+    </details>
+    <details class="faq-item">
+      <summary>机场订阅链接怎么导入 sing-box？</summary>
+      <div class="faq-content">
+        sing-box 本身通常使用 JSON 格式的配置文件。部分机场后台会直接提供一键 sing-box 订阅链接，您可以将其粘贴到客户端的 Profile 设置中。如果机场未原生支持，您可以使用第三方转换工具（如 subconverter）将标准订阅转换为 sing-box 兼容的配置后再导入。
+      </div>
+    </details>
+  </div>
+</div>
+
 <style>
 .VPHero, .VPHero .container, .VPHero .main {
   display: flex !important;
@@ -180,4 +247,54 @@ features:
 .VPFeature .link-text-value {
   white-space: nowrap;
 }
+
+.faq-section {
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 0 24px;
+}
+.faq-section h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  color: var(--vp-c-text-1);
+}
+.faq-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.faq-item {
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.faq-item:hover {
+  border-color: var(--vp-c-brand-soft);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.faq-item summary {
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--vp-c-text-1);
+  display: flex;
+  align-items: center;
+  user-select: none;
+  outline: none;
+}
+.faq-item summary:hover {
+  color: var(--vp-c-brand);
+}
+.faq-content {
+  padding: 0 20px 20px 20px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--vp-c-text-2);
+}
+
 </style>
